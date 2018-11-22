@@ -1,0 +1,316 @@
+.menuitems li {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    padding-top: 150px;
+}
+
+.menuitems p {
+    display: none;
+}
+
+.menuitems li:hover {
+    padding-top: 148px;
+    transition: 0.3s ease-in-out;
+}
+
+    .menuitems li:hover p {
+        display: block;
+        transition: 0.3s ease-in-out;
+    }
+
+.orderitems {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(100px, auto);
+    /*padding-top: 150px;*/
+    margin-top: 150px;
+    float: left;
+    text-align: center;
+}
+
+.orderitems > div {
+    padding: 15px;
+}
+
+#orderitems-burger {
+    border-top: 1px solid #CC5A29;
+    border-top-left-radius: 25px;
+    border-left: 1px solid #CC5A29;
+    border-bottom: 1px solid #CC5A29;
+    border-bottom-left-radius: 25px;
+    border-right: 1px solid #CC5A29;
+}
+
+#orderitems-pizza {
+    border: 1px solid #CC5A29;
+}
+
+#orderitems-wrap {
+    border-top: 1px solid #CC5A29;
+    border-top-right-radius: 25px;
+    border-right: 1px solid #CC5A29;
+    border-bottom: 1px solid #CC5A29;
+    border-bottom-right-radius: 25px;
+    border-left: 1px solid #CC5A29;
+}
+
+    .orderitems > div > img {
+        border-radius: 25px;
+    }
+
+    .orderitems > div > p {
+        color: #ffffff;
+    }
+
+.quantities {
+    color: #CC5A29;
+    border: none;
+    outline: none;
+}
+
+    .quantities option:hover {
+        background: #CC5A29;
+        color: #ffffff;
+    }
+
+#summary {
+    position: fixed;
+    background: #fff;
+    color: #272727;
+    margin-top: 500px;
+    margin-left: 620px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+#totalquantity {
+    font-style: normal;
+}
+
+#checkout-btn {
+    background: #CC5A29;
+    color: #fff;
+    margin-top: 800px;
+    margin-left: 620px;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.items li {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    padding-top: 100px;
+}
+
+.forms {
+    position: absolute;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 300px;
+    grid-gap: 1em;
+    margin-top: 450px;
+}
+
+.pay-btn-div {
+    position: relative;
+    text-align: center;
+    border-top: 1px solid #CC5A29;
+    border-top-right-radius: 25px;
+    border-right: 1px solid #CC5A29;
+    border-bottom: 1px solid #CC5A29;
+    border-bottom-right-radius: 25px;
+    border-left: 1px solid #CC5A29;
+}
+
+.pay-btn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #CC5A29;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-family: 'Product Sans';
+    color: #fff;
+    width: 200px;
+    height: 200px;
+    font-size: 40px;
+    margin: auto;
+}
+
+.payment-contact {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 100%;
+    grid-gap: 1em;
+    border-top: 1px solid #CC5A29;
+    border-top-left-radius: 25px;
+    border-left: 1px solid #CC5A29;
+    border-bottom: 1px solid #CC5A29;
+    border-bottom-left-radius: 25px;
+    border-right: 1px solid #CC5A29;
+}
+
+    .payment-contact > div {
+        padding-top: 100px;
+        width: 200px;
+    }
+
+    .payment {
+        margin-left: 125.75px;
+    }
+
+            .payment-contact > div > p {
+                text-align: center;
+                background-color: #CC5A29;
+                width: 200px;
+                color: #ffffff;
+                border-top-left-radius: 15px;
+                border-top-right-radius: 15px;
+                padding: 5px 0px;
+            }
+
+.inputs {
+    width: 200px;
+}
+
+    .inputs input {
+        outline: none;
+        border: none;
+        top: 0;
+        left: 0;
+        padding: 5px 0 5px 10px;
+        width: 200px;
+    }
+
+::placeholder {
+    font-family: 'Product Sans';
+    color: #bcbcbc;
+}
+
+.lastinput {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/*.payment {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    padding-top: 350px;
+}
+    .payment p {
+        color: #fff;
+        background: #CC5A29;
+        border-radius: 25px;
+        padding-left: 5px;
+        text-align: center;
+    }
+    .payment input {
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        padding: 15px;
+        margin: 5px;
+    }*/
+
+/*.contact {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+    padding-top: 350px;
+}
+    .contact p {
+        color: #fff;
+        background: #CC5A29;
+        border-radius: 25px;
+        padding-left: 5px;
+        text-align: center;
+    }
+    .contact input {
+        border-radius: 25px;
+        outline: none;
+        border: none;
+        padding: 15px;
+        margin: 5px;
+    }*/
+
+.variables {
+    font-style: normal;
+}
+
+/*.total-price-div {
+    position: absolute;
+    background: #CC5A29;
+    border-radius: 25px;
+    padding: 15px;
+    color: #fff;
+    margin-top: 500px;
+    margin-left: 100px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+}*/
+
+.total-price-div {
+    top: 390px;
+    position: relative;
+    width: 100%;
+    height: 30px;
+}
+
+    .total-price-div p {
+        position: absolute;
+        background-color: #CC5A29;
+        border-radius: 25px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 150px;
+        color: #ffffff;
+        padding:5px;
+        text-align: center;
+    }
+
+@media (max-width: 600px) {
+    .orderitems {
+        grid-template-columns: 1fr;
+    }
+
+    .forms {
+        grid-template-columns: 1fr;
+    }
+
+    #orderitems-burger {
+        border-top-right-radius: 25px;
+        border-bottom-right-radius: 25px;
+    }
+
+    #orderitems-pizza {
+        border-top-right-radius: 25px;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+
+    #orderitems-wrap {
+        border-top-left-radius: 25px;
+        border-bottom-left-radius: 25px;
+    }
+}

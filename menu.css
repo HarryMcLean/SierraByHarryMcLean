@@ -1,0 +1,104 @@
+.menuitems {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(50px, auto);
+    padding-top: 150px;
+    float: left;
+    text-align: center;
+ }
+
+    .menuitems > div {
+        padding: 1em;
+
+    }
+
+        .menuitems-select {
+           text-align: center;
+        }
+
+.menuitems p {
+    display: none;
+}
+
+.menuitems li:hover {
+    padding-top: 148px;
+    transition: 0.3s ease-in-out;
+}
+
+.menuitems li:hover p{
+    display: block;
+    transition: 0.3s ease-in-out;
+}
+
+.custom-select {
+    position: relative;
+}
+
+.quantities-selected {
+    color: #CC5A29;
+    border: none;
+    outline: none;
+}
+
+.quantities option:hover {
+    background: #CC5A29;
+    color: #ffffff;
+}
+
+.summary-div > p {
+    position: absolute;
+    bottom: 20px;
+    text-align: center; 
+    border-radius: 25px;
+    top: calc(100% - 330px);
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    line-height: 330px;
+}
+
+#summary {
+    background: #f2f2f2;
+    color: #272727;
+    left: 10px;
+}
+
+#subtotal {
+    background:#f2f2f2;
+    color: #CC5A29;
+    right: 480px;
+}
+
+#totalquantity {
+    font-style: normal;
+}
+
+#checkout-btn {
+    position: absolute;
+    background: #CC5A29;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 25px;
+    /*margin-top: 550px;
+    margin-left: 620px;*/
+    top: calc(100% - 330px);
+    width: 30%;
+    height: 300px;
+    text-align: center;
+    line-height: 330px;
+    float: left;
+    right: 10px;
+    transition: 0.5s ease;
+}
+
+#checkout-btn:hover {
+    color: #CC5A29;
+    background-color: #f2f2f2;
+    transition: 0.5s ease;
+}
+
+.qty {
+    font-style: normal;
+}

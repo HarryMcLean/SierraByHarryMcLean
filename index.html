@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+    <title>Sierra - Home</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+</head>
+<body id="body">
+    <header>
+
+        <nav class="navbar">
+            <span class="open-slide">
+                <a href="#" onclick="openSlideMenu()">
+                    <!--<label>&#9776;</label>-->
+                    <img src="images/list.png" style="width:50px; height: 50px" class="hamburger" />
+                    <!--<svg width="30" height="30">
+                        <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+                        <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+                        <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+                    </svg>-->
+                </a>
+            </span>
+            <ul class="navbar-nav">
+                <li class="topoptions"><a href="menu.html">Menu</a></li>
+                <li class="topoptions"><a href="checkout.html">Checkout</a></li>
+                <li><a href="index.html"><img src="images/cordova.png" style="width:120px; height: 60px" /></a></li>
+                <li class="topoptions">
+                    <a href="locations.html">Where to find us</a>
+                    <ul>
+                        <li><a href="losangeles.html">Los Angeles</a></li>
+                        <li><a href="london.html">London</a></li>
+                        <li><a href="canberra.html">Canberra</a></li>
+                        <li><a href="paris.html">Paris</a></li>
+                        <li><a href="sanfrancisco.html">San Francisco</a></li>
+                    </ul>
+                </li>
+                <li class="topoptions"><a href="contact.html">Get in touch</a></li>
+            </ul>
+        </nav>
+
+        <div id="side-menu" class="side-nav">
+            <a id="close" href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+            <a id="option" href="index.html"><img src="images/Picture1.png" style="width:100px; height: 50px" /></a>
+            <a id="option" href="menu.html">Menu</a>
+            <a id="option" href="checkout.html">Checkout</a>
+            <button class="dropdown-btn" id="option">Where to find us</button>
+            <div class="side-nav-locations">
+                <a href="losangeles.html">Los Angeles</a>
+                <a href="london.html">London</a>
+                <a href="canberra.html">Canberra</a>
+                <a href="paris.html">Paris</a>
+                <a href="sanfrancisco.html">San Francisco</a>
+            </div>
+            <a id="option" href="contact.html">Get in touch</a>
+        </div>
+    </header>
+
+    <!--<div id="arrow-left" class="arrow"></div>
+    <div id="arrow-right" class="arrow"></div>
+
+    <div id="stage">
+        <img class="slideshow" src="images/gourmet-burger.jpg" style="width: 1000px; height: 600px" />
+        <img class="slideshow" src="images/pizza.jpg" style="width: 1000px; height: 600px" />
+        <img class="slideshow" src="images/wraps.jpeg" style="width: 1000px; height: 600px" />
+    </div>-->
+
+    <div id="slide">
+        <div class="slideshow-container">
+            <div class="mySlides fade"> <img src="images/gourmet-burger.jpg" style="width:1000px; height: 600px;"> </div>
+            <div class="mySlides fade"> <img src="images/pizza.jpg" style="width:1000px; height: 600px;"> </div>
+            <div class="mySlides fade"> <img src="images/wraps.jpeg" style="width:1000px; height: 600px;"> </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <br>
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </div>
+        <script type="text/javascript" src="scripts/index.js"></script>
+</body>
+</html>
