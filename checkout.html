@@ -3,12 +3,12 @@
 <head>
 
     <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
-    <link rel="stylesheet" type="text/css" href="css/reset.min.css" />
-    <link rel="stylesheet" type="text/css" href="css/index.css" />
-    <link rel="stylesheet" type="text/css" href="css/checkout.css" />
+    <link rel="stylesheet" type="text/css" href="reset.min.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="checkout.css" />
     <title>Sierra - Checkout</title>
 
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="shortcut icon" type="x-icon" href="favicon.ico" />
 
 </head>
 <body onload="displaySummary()">
@@ -17,7 +17,7 @@
         <nav class="navbar">
             <span class="open-slide">
                 <a href="#" onclick="openSlideMenu()">
-                    <img src="images/list.png" style="width:50px; height: 50px" />
+                    <img src="list.png" style="width:50px; height: 50px" />
                     <!--<svg width="30" height="30">
                         <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
                         <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
@@ -28,7 +28,7 @@
             <ul class="navbar-nav">
                 <li class="topoptions"><a href="menu.html">Menu</a></li>
                 <li class="topoptions"><a href="checkout.html">Checkout</a></li>
-                <li><a href="index.html"><img src="images/cordova.png" style="width:120px; height: 60px" /></a></li>
+                <li><a href="index.html"><img src="cordova.png" style="width:120px; height: 60px" /></a></li>
                 <li class="topoptions">
                     <a href="locations.html">Where to find us</a>
                     <ul>
@@ -45,7 +45,7 @@
 
         <div id="side-menu" class="side-nav">
             <a id="close" href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
-            <a id="option" href="index.html"><img src="images/Picture1.png" style="width:100px; height: 50px" /></a>
+            <a id="option" href="index.html"><img src="Picture1.png" style="width:100px; height: 50px" /></a>
             <a id="option" href="menu.html">Menu</a>
             <a id="option" href="checkout.html">Checkout</a>
             <a id="option" href="locations.html">Where to find us</a>
@@ -55,21 +55,21 @@
 
     <div class="orderitems">
         <div id="orderitems-burger">
-            <img src="images/gourmet-burger.jpg" style="width: 200px; height: 120px;" />
+            <img src="gourmet-burger.jpg" style="width: 200px; height: 120px;" />
             <p>Burger: <var class="variables" id="quantity-burger"></var></p>
             <p>Price: $<var class="variables" id="price-burger"></var></p>
             <button onclick="increaseQuantity('quantity-burger')">&#43;</button>
             <button onclick="decreaseQuantity('quantity-burger')">&#8722;</button>
         </div>
         <div id="orderitems-pizza">
-            <img src="images/pizza.jpg" style="width: 200px; height: 120px;" />
+            <img src="pizza.jpg" style="width: 200px; height: 120px;" />
             <p>Pizza: <var class="variables" id="quantity-pizza"></var></p>
             <p>Price: $<var class="variables" id="price-pizza"></var></p>
             <button onclick="increaseQuantity('quantity-pizza')">&#43;</button>
             <button onclick="decreaseQuantity('quantity-pizza')">&#8722;</button>
         </div>
         <div id="orderitems-wrap">
-            <img src="images/wraps.jpeg" style="width: 200px; height: 120px;" />
+            <img src="wraps.jpeg" style="width: 200px; height: 120px;" />
             <p>Wraps: <var class="variables" id="quantity-wrap"></var></p>
             <p>Price: $<var class="variables" id="price-wrap"></var></p>
             <button onclick="increaseQuantity('quantity-wrap')">&#43;</button>
@@ -106,7 +106,7 @@
         <p>Total price: $<var class="variables" id="total-price"></var></p>
     </div>
 
-    <script type="text/javascript" src="scripts/menu.js"></script>
+    <script type="text/javascript" src="menu.js"></script>
 
 </body>
 </html>
